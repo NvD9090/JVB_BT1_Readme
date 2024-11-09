@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "SF Pro";
+    src: url("./sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+ul {
+    list-style: none;
+}
+
+header {
+    height: 350px;
+    width: 100%;
+    background-color: #FFD900;
+    padding: 65px 0 32px 131px;
+}
+.version-header {
+    font-family: 'SF Mono', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    margin-left: 9px;
+}
+.main-header {
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+    height: 239px;
+}
+
+.container {
+    padding-left: 131px;
+    padding-top: 103px;
+}
+.container .title{
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+
+}
+.title {
+    margin-bottom: 26px;
+} 
+.content {
+    font-family: "SF Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    padding-left: 29px;
+    letter-spacing: 0.3px;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6px;
+    height: 100%; 
+    background-color: #000;
+}
+.container-1 .content {
+    max-width: 923px;
+    margin-bottom: 90px;
+
+}
+
+.container-2 .content{
+    max-width: 884px;
+    margin-bottom: 80px;
+}
+.container-3 .content .text-1 {
+    max-width: 791px;
+    letter-spacing: 0.6px;
+    margin-bottom: 59px;
+}
+.image-1 {
+    width: 333.88px;
+    height: 50.22px;
+    margin-bottom: 12px;
+    margin-left: 8.24px;
+}
+.text-image-1 {
+    margin-left: 5px;
+    margin-bottom: 52.2px;
+}
+.image-2 {
+    width: 382.35px;
+    height: 48.06px;
+    margin-bottom: 14.74px;
+    margin-left: 5px;
+}
+.text-image-2 {
+    margin-left: 5px;
+    margin-bottom: 52.2px;
+}
+.image-3 {
+    width: 302.91px;
+    height: 40.9px;
+    margin-bottom: 30.24px;
+    margin-left: 7.24px;
+}
+.text-image-3 {
+    margin-left: 5px;
+    margin-bottom: 56.44px;
+}
+.image-4 {
+    width: 493.82px;
+    height: 49.57px;
+    margin-bottom: 20px;
+    margin-left: 9.75px;
+}
+.text-image-4 {
+    margin-left: 5px;
+    margin-bottom: 53.75px;
+}
+.image-5 {
+    width: 681.75px;
+    height: 47.25px;
+    margin-bottom: 29px;
+    margin-left: 5px;
+}
+.text-image-5 {
+    margin-left: 5px;
+    margin-bottom: 302px;
+}
